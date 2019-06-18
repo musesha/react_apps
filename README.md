@@ -1,2 +1,2 @@
 # react_apps
-All react apps 
+To run the apps, you will need to have Nodejs and npm installed 
