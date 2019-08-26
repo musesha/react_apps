@@ -1,4 +1,32 @@
+/******************************
+Author: Musesha Mulenga
+Date: June, 2019
+Title: BongoHive Assignment css
+*******************************/
+
+/************** GLOBALS ****************/
+
+@font-face{
+  font-family: Quicksand-Regular; 
+  src: url(../fonts/Quicksand-Regular.ttf);
+}
+
+
 body{
+  font: 1.5vw/1.5 Quicksand-Regular, Arial, Helvetica, sans-serif;
+  padding: 0;
   margin: 0;
-  padding: 0; 
+  text-shadow: .01vw .2vw .2vw rgba(42, 42, 42, 0.549);
+}
+.mainContainer{
+  width: 86%;
+  margin: auto;
+}
+a{
+  text-decoration: none; 
+  color: rgb(0, 187, 255);
+}
+a:hover{
+  color: rgb(255, 157, 0);
+  text-decoration: underline;
 }
