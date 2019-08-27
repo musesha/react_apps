@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
+import './../App.css';
+// import './header.css'
 
 class Header extends Component {
   state = {  } 
   render() { 
     return ( 
-    <div className="Header">
-      <h1>This is a Header</h1>       
-    </div>
-     );
+      <nav class="headerNav">
+        <div className="mainContainer">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div> 
+      </nav> 
+    );
   }
 }
  
