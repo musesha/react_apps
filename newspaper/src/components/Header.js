@@ -10,8 +10,11 @@ class Header extends Component {
         <div className="mainContainer">
           <a href="#home">Home</a>
           <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+          <a href="#Busines">Busines</a>
+          <a href="#Health">Health</a>
+          <a href="#travel">Travel</a>
+          <a href="#science">Science</a>
+          <a href="#sport">Sport</a>
         </div> 
       </nav> 
     );
